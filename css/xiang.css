@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    width: 100%;
+    height: 2000px;
+}
+.box1{
+    width: 100%;
+    height: 100%;
+   
+    margin: 0 auto;
+   
+   
+}
+.top1{
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+}
+.top{
+    width: 1380px;
+    height: 100px;
+    border-top: 2px solid #dadce0;
+    
+    position: relative;
+    background: #ffffff;
+    margin: 0 auto;
+}
+.top-left{
+    width: 208px;
+    height: 100px;
+    float: left;
+}
+.top-left img{
+    width: 168px;
+    height: 43px;
+    
+    margin-top: 30px;
+}
+.top-middle{
+    width: 750px;
+    height: 100px;
+    float: left;
+}
+.top-middle ul{
+    height: 100px;
+   
+}
+.top-middle ul li{
+
+   
+    float: left;
+    list-style: none;
+    
+   
+    
+}
+.top-middle ul li a{
+     line-height: 100px; 
+    margin-left: 40px;
+    height: 100px;
+    display: block;
+    text-decoration: none;
+    color: #885f40;
+    font-size: 17px;
+    
+}
+.top-right ul li{
+    float: left;
+    list-style: none;
+    font-size: 40px;
+    color: #fe7317;
+    line-height: 100px;
+}
+.top-right ul li:nth-child(2){
+    font-size: 17px;
+    line-height: 100px;
+
+}
+.top-right ul li:nth-child(3){
+    font-size: 20px;
+    line-height: 100px;
+
+
+}
+.top-right ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fe7317;
+    font-size: 15px;
+    line-height: 100px;
+}
+.nav{
+    width: 1500px;
+    height: 95px;
+    border-bottom: 1px solid #999999;
+    margin: 0 auto;
+}
+.nav li{
+    float: left;
+    list-style: none;
+    margin: 0 20px;
+    line-height: 95px;
+}
+.nav li a{
+    text-decoration: none;
+    color: #555555;
+}
+.main{
+    width: 100%;
+    height: 5000px;
+
+}
+.main-top{
+    width: 200px;
+    height: 50px;
+   
+    border-left: #fe7317 10px solid;
+    margin: 26px auto 0;
+}
+.main-top p{
+    text-align: center;
+    font-size: 24px;
+    color: #885f5e;
+    
+
+}
+.main-top i{
+    display: block;
+   font-style: normal;
+   text-align: center;
+   font-size: 16px;
+   color: #c5aea0;
+   line-height: 24px;
+}
+
+.main-middle{
+    height: 100%;
+    width: 1130px;
+    margin: 0 auto;
+}
+.main-left{
+    width: 360px;
+    height: 440px;
+    float: left;
+   
+}
+.main-left a{
+    display: block;
+    width: 360px;
+    height: 220px;
+}
+.main-left a img{
+    width: 220px;
+    height: 220px;
+    margin-left: 70px;
+}
+.main-left p{
+    text-align: center;
+    font-size: 17px;
+    color: #885f3f;
+    line-height: 30px;
+
+}
+
+.main-left i{
+    font-style: normal;
+    text-align: center;
+    display: block;
+    line-height: 30px;
+    font-size: 15px;
+}
+.main-left span{
+    text-align: center;
+    display: block;
+    line-height: 30px;
+    font-size: 15px;
+}
+.main-left i a{
+    text-align: center;
+    display: block;
+    line-height: 30px;
+    font-size: 15px;
+    text-decoration: none;
+}
+footer{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.new-footer {
+    overflow: hidden;
+    border-top: 1px solid #EFEFEF;
+    background: #ffffff;
+}
+.new-footer .link {
+    width: 1100px;
+    margin: auto;
+    padding: 25px 0;
+    font-size: 12px;
+    color: #8C8C8C;
+    overflow: hidden;
+}
+.new-footer .bottom {
+    padding: 20px 0 25px 0;
+    border-top: 1px solid #EFEFEF;
+}
+.new-footer .bottom .content {
+    width: 1100px;
+    margin: auto;
+    overflow: hidden;
+}
+.new-footer .logo {
+    float: left;
+    width: 134px;
+    height: 33px;
+    overflow: hidden;
+    text-indent: -9999em;
+    background-position: 0px 0px;
+    background: transparent url(/themes/1d1c/images/new-images/logo.png) repeat scroll 0% 0%;
+    position: static;
+}
+.logo {
+    background: url(../images/index_images/logo.png) center center no-repeat;
+    width: 156px;
+    height: 80px;
+    background-size: 100%;
+    position: relative;
+    top: 10px;
+}
+.new-footer .link .msg {
+    float: left;
+    overflow: hidden;
+}
+.new-footer .link .about {
+    float: left;
+    overflow: hidden;
+    margin: 0 0 0 75px;
+    width: 180px;
+}
+.new-footer .link .service {
+    float: left;
+    overflow: hidden;
+    margin: 0 0 0 100px;
+    width: 180px;
+}
+.new-footer .link .code {
+    float: right;
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+.new-footer .content p {
+    float: left;
+    margin: 0 0 0 20px;
+    font-size: 12px;
+    color: #8C8C8C;
+    line-height: 20px;
+}
